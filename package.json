@@ -1,0 +1,49 @@
+{
+  "name": "angular-vite",
+  "version": "1.0.0",
+  "description": "Angular with Vite",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "ng:build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "preview": "vite preview",
+    "test": "ng test",
+    "e2e": "playwright test",
+    "e2e:debug": "playwright test --project chromium --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kelvince01/angular-vite.git"
+  },
+  "keywords": [
+    "Angular",
+    "Vite"
+  ],
+  "sideEffects": false,
+  "author": "Kelvince Phillips",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kelvince01/angular-vite/issues"
+  },
+  "homepage": "https://github.com/Kelvince01/angular-vite#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.32.2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^5.0.3",
+    "vite": "^4.2.1"
+  },
+  "dependencies": {
+    "@angular/common": "^15.0.0-next.6",
+    "@angular/compiler": "^15.0.0-next.6",
+    "@angular/core": "^15.0.0-next.6",
+    "@angular/platform-browser": "^15.0.0-next.6",
+    "@angular/router": "^15.0.0-next.6",
+    "rxjs": "^7.8.0",
+    "zone.js": "^0.11.8"
+  }
+}
